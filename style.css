@@ -1,21 +1,59 @@
-/* style.css */
-body {
-  font-family: Overpass;
-  color: #404042;
-  font-size: 18px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Dogs 2: Hack the world (le monde) (Ethically!)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #<?php echo dechex(rand(0x000000, 0xFFFFFF)); ?>;
+        }
 
-h1, h2, h3 {
-  font-family: Chivo;
-}
+        header {
+            text-align: center;
+            padding: 30px;
+            font-size: 2em;
+            color: color: #ff0000;;
+            background-color: #03fc7f;
+      h1 { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.57143px; }
+        }
 
-a {
-  color: #1A48E3;
-  font-weight: bold;
-  text-decoration: none;
-  transition: .3s;
-}
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #6c95a6
+        }
 
-a:hover {
-  color: #850cad;
-}
+        img {
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        section {
+            border: 1px solid #eee;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #03fcfc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: #03fcfc;
+             Background: #0f4c5c; 
+        } 
+        
+    </style>
